@@ -1,8 +1,8 @@
 {
-    "url": "https://github.com/drocapy/capy/test.yaml",
+    "url": "https://github.com/drocapy/capy/ya.yaml",
     "urls": [
         {
-            "url": "https://github.com/drocapy/capy/test.yaml",
+            "url": "https://github.com/drocapy/capy/ya.yaml",
             "name": "Foo"
         }
     ]
