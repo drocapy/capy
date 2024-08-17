@@ -2,13 +2,13 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(22)//
+    authorizationUrl: javascript:alert(33)//
 info:
   version: "1.0.0"
   title: XSS img test
-  description: <script>alert(9)</script> <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)"  onmouseover="alert('xxs')>
-  paths: 
-  /: 
+  description: "> onload="alert(1)" "><img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
+paths:
+  /:
     get:
       responses:
         200:
