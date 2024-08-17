@@ -2,7 +2,7 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(33)//
+    authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
   title: XSS img test
