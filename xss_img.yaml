@@ -5,8 +5,8 @@ securityDefinitions:
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: XSS img test me 3
-  description: onload="alert(1)" <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
+  title: XSS img test me 3d
+  description: onload="alert(1)" <h1>hello</h1>
 paths:
   /:
     get:
