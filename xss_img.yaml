@@ -5,8 +5,8 @@ securityDefinitions:
     authorizationUrl: javascript:alert(7)//
 info:
   version: "1.0.0"
-  title: XSS img test hrggfdt
-  description: <h1>hello</h1>
+  title: XSS img 111111111111
+  description: <h3>hello</h3>
 paths:
   /:
     get:
