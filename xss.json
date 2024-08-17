@@ -1,8 +1,8 @@
 {
-    "url": "https://github.com/drocapy/capy/ya.yaml",
+    "url": "https://github.com/drocapy/capy/xss_img.yaml",
     "urls": [
         {
-            "url": "https://github.com/drocapy/capy/ya.yaml",
+            "url": "https://github.com/drocapy/capy/xss_img.yaml",
             "name": "Foo"
         }
     ]
