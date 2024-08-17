@@ -2,10 +2,10 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(document.domain)//
+    authorizationUrl: javascript:alert(7)//
 info:
   version: "1.0.0"
-  title: XSS img test h
+  title: XSS img test hrggfdt
   description: onload="alert(1)" <h1>hello</h1>
 paths:
   /:
