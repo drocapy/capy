@@ -6,8 +6,9 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: XSS img test
-  description: <script>alert(9)</script> <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)"  onmouseover="alert('xxs')> 
-  /: paths:<script>alert(55)</script>
+  description: <script>alert(9)</script> <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)"  onmouseover="alert('xxs')>
+  paths: <script>alert(9)</script>
+  /: 
     get:
       responses:
         200:
