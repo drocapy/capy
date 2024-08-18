@@ -1,5 +1,4 @@
 swagger: '2.0'
-authorizationUrl: javascript:alert(document.domain)//
 securityDefinitions:
   a:
     type: oauth2
